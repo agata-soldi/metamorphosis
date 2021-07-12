@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Le Metamorfosi di Ovidio</title>
+                <author xml:id="PON">Publio Ovidio Nasone</author>
+                <author xml:id="GAdA">Giovanni Andrea dell'Anguillara</author>
+                <respStmt>
+                    <name xml:id="GAdA">Giovanni Andrea dell'Anguillara</name>
+                    <resp>traduzione</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="GD">Giuseppe Dondi dall'Orologio</name>
+                    <resp>annotazione</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Agata Soldi</name>
+                    <resp>Codifica TEI</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"></edition>
+                <title>Prima edizione elettronica</title>
+                <date when="2003-08-04">2003-08-04</date>
+                <respStmt>
+                    <name xml:id="AT">Alfredo Tuzi</name>
+                    <resp>revisione</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="FC">Fabio Ciotti</name>
+                    <resp>revisione</resp>
+                </respStmt>
+            </editionStmt>
+            <extent>2253 Kb</extent>
+            <publicationStmt>
+                <publisher>Biblioteca Italiana</publisher>
+                <disributor>Sapienza Università di Roma</disributor>
+                <pubPlace>Roma</pubPlace>
+                <address>
+                    <addrLine>www.bibliotecaitaliana.it</addrLine>
+                </address>
+                <date>2003</date>
+                <idno type="SBN">IT\ICCU\BVEE\006173</idno>
+                <availability status="free">
+                    <licence>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Distruibuito tramite licenza <ref target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribuzione non commerciale Condividi allo stesso modo 3.0 Licence.</ref></licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Collezione BibIt</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Le metamorfosi di Ouidio, ridotte da Giouanni Andrea dell'Anguillara in ottaua rima
+                    Di nuouo dal proprio auttore riuedute, e corrette
+                    con le annotationi di M. Gioseppe Horologgi</title>
+                    <author>Ovidio Publio Nasone</author>
+                    <editor>Giuseppe Dondi dall'Orologio</editor>
+                    <publisher>Francesco de Franceschi</publisher>
+                    <pubPlace>Venezia</pubPlace>
+                    <date when="1563">1563</date>
+                    <extent>
+                        <measure unit="books">XV libri della fonte originale</measure>
+                    </extent>
+                    tradotto da <editor role="translator">Giovanni Andrea dell'Anguillara</editor>;prefazione di <editor role="preface">Giuseppe Dondi dall'Orologio</editor>
+                    <note>(In Venetia : per Gio. Griffio ad instanza di M. Francesco Senese, 1563).</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="silent" status="medium">
+                    <p>Livello medio: controllo a video con collazione con edizione di riferimento</p>
+                </correction>
+                <quotation marks="all">
+                    <p>I simboli di citazione e di discorso diretto presenti sulla fonte sono stati rappresentati sulla versione digitale</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>I trattini di sillabazione a fine riga sono stati soppressi e le ricomposte</p>
+                </hyphenation>
+                <interpretation>
+                <p>Il testo presenta delle "Annotationi" poste fino al quarto libro compreso in coda al libro relativo, dal quinto in poi, segnalato dall'editore con la scritta: "Seguono l'annotationi del quinto libro: e tutte le altre si porranno in principio de' libri per maggior commodità del lettore". La scelta è stata quella di omettere la scritta e di continuare a porre le "Annotationi" in fine capitolo considerandole delle note del curatore.</p>
+                </interpretation>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy xml:id="CGB">
+                    <bibl>
+                        <title>Classificazione generi BibIt</title>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date>1563</date>
+            </creation>
+            <langUsage>
+                <language id="ita"/>Italiano
+            </langUsage>
+            <textClass>
+                <keywords scheme="CGB">
+                    <item>Poesia</item>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2003-07-08" who="#MZ">
+                <respStmt>
+                    <name xml:id="MZ">Marta Zanazzi</name>
+                </respStmt>
+                Codifica XML - Codifica con software
+            </change>
+            <change when="2003-07-21" who="#EP">
+                <respStmt>
+                    <name xml:id="EP">Elena Pierazzo</name>
+                </respStmt>Validazione
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div1 type="dedication">
+                <opener>
+                    <head>Dedica</head>
+                    <salute>Alla Serenissima Madama,Madama Margherita di Valoes Duchessa di Savoia e di Berrhì</salute>
+                    <byline>Gioseppe Horologgi.</byline>
+                </opener>
+                <p>Non doverà alcuno maravigliarsi che io habbi voluto indirizzare all'Altezza Vostra le annotationi da me fatte sopra le Metamorfosi di Ovidio trasportate felicemente in ottava rima in questa nostra lingua Italiana da M. Gio. Andrea dall'Anguillara, se considerarà che si come egli fece elettione de i maggior Re non pure della Christianità ma di tutto il mondo; per dedicargli le fatiche sue havendole dedicate ad Arrigo Secondo Re di Francia di felicissima memoria, e dipoi al Re CARLO IX, suo meritissimo figliuolo, cosi io habbi eletta l'Altezza Vostra, come quella che è la maggior Donna della nostra età essendo stata figliuola di cosi gran Re come fu Francesco Primo, sorella del grandissimo successore suo, e Zia del già Re Francesco II, e del presente Re, e moglie poi del Serenissimo Emanuelo Filiberto Duca di Savoia per sacrarle le mie, quali esse si diano; perche ne egli ne io potevamo piu altamente collocarle.</p>
+                <closer>
+                    <dateline>Da Venetia alli X d'Agosto del MDLXIII.</dateline>
+                </closer>
+            </div1>
+        </front>
+    <body>
+        <div2 type="canto" n="1">
+            <head>Libro Primo.</head>
+            <lg type="ottava" rhyme="abababcc" n="1">
+                <l n="1" enjamb="yes">Le forme in novi corpi <rhyme label="a">trasformate</rhyme></l>
+                <l n="2" enjamb="no">Gran desio di cantar m'infiamma il <rhyme label="b">petto</rhyme>,</l>
+                <l n="3" enjamb="no">Da i tempi primi à la felice <rhyme label="a">etate</rhyme>,</l>
+                <l n="4" enjamb="no">Che fu capo à l'imperio Augusto <rhyme label="b">eletto</rhyme>.</l>
+                <l n="5" enjamb="no">Dei, c'havete non pur quelle <rhyme label="a">cangiate</rhyme>,</l>
+                <l n="6" enjamb="no">Ma tolto à voi piu volte il proprio <rhyme label="b">aspetto</rhyme>,</l>
+                <l n="7" enjamb="no">Porgete à tanta impresa tale <rhyme label="c">aita</rhyme>,</l>
+                <l n="8" enjamb="no">C'habbiano i versi miei perpetua <rhyme label="c">vita</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="2">
+                <l n="9" enjamb="yes">E tu, se ben tutto hai l'animo <rhyme label="a">intento</rhyme></l>
+                <l n="10" enjamb="no">Invittissimo Henrico al fero <rhyme label="b">Marte</rhyme>,</l>
+                <l n="11" enjamb="yes">Mentr'io sotto il tuo nome ardisco, e <rhyme label="a">tento</rhyme></l>
+                <l n="12" enjamb="no">Di figurar sì bei concetti in <rhyme label="b">carte</rhyme>,</l>
+                <l n="13" enjamb="no">Fammi del favor tuo tal'hor <rhyme label="a">contento</rhyme>,</l>
+                <l n="14" enjamb="no">Che le tue gratie à noi largo <rhyme label="b">comparte</rhyme>:</l>
+                <l n="15" enjamb="no">Che s'esser grato à te vedrò il mio <rhyme label="c">carme</rhyme>,</l>
+                <l n="16" enjamb="no">Farò cantar le Muse al suon de l'<rhyme label="c">arme</rhyme>.</l>
+            </lg>
+            <!-- apollo e dafne -->
+            <lg type="ottava" rhyme="abababcc" n="128">
+                <l n="452" enjamb="yes">Dafne, figlia à Peneo, fu l'alma, e  <rhyme label="a">bella</rhyme></l>
+                <l n="453" enjamb="no">Ninfa, che allhor solinga se ne <rhyme label="b">giva</rhyme>,</l>
+                <l n="454" enjamb="yes">E cercando imitar Diana, anch' <rhyme label="a">ella</rhyme></l>
+                <l n="455" enjamb="no">u de l'huom sempre mai nemica, e <rhyme label="b">schiva</rhyme>.</l>
+                <l n="456" enjamb="no">Molti, e molti cercar per moglie  <rhyme label="a">havella</rhyme></l>
+                <l n="457" enjamb="no">er l'immensa beltà, che'n lei <rhyme label="b">fioriva</rhyme>:</l>
+                <l n="458" enjamb="no">Gli amori ella, e i connubij <rhyme label="c">dispregiando</rhyme>,</l>
+                <l n="459" enjamb="no">en' giva à caccia per le selve <rhyme label="c">errando</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="129">
+                <l n="460" enjamb="yes">Contenta hor questa, hor quella fera  <rhyme label="a">piglia</rhyme></l>
+                <l n="461" enjamb="no">Ne i boschi più selvaggi, e più <rhyme label="b">remoti</rhyme>.</l>
+                <l n="462" enjamb="no">Spesso il padre le disse, ò cara  <rhyme label="a">figlia</rhyme></l>
+                <l n="463" enjamb="no">Gia da te spero e genero, e <rhyme label="b">nepoti</rhyme>.</l>
+                <l n="464" enjamb="yes">Proterva ella al contrario si  <rhyme label="a">consiglia</rhyme></l>
+                <l n="465" enjamb="no">Servare i casti suoi pensieri, e <rhyme label="b">voti</rhyme>;</l>
+                <l n="466" enjamb="no">Come fosse il connubio un grave <rhyme label="c">eccesso</rhyme>,</l>
+                <l n="467" enjamb="no">Conoscer non volea l'ignoto <rhyme label="c">sesso</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="130">
+                <l n="468" enjamb="no">Sparsa le guancie di color di  <rhyme label="a">rose</rhyme>,</l>
+                <l n="469" enjamb="no">Il collo al padre dolcemente <rhyme label="b">abbraccia</rhyme>,</l>
+                <l n="470" enjamb="no">E con parole sante, e  <rhyme label="a">vergognose</rhyme></l>
+                <l n="471" enjamb="no">Disse. Deh padre mio dolce vi <rhyme label="b">piaccia</rhyme></l>
+                <l n="472" enjamb="yes">Che casta io possa per le selve  <rhyme label="a">ombrose</rhyme></l>
+                <l n="473" enjamb="no">De la triforme Dea seguir la <rhyme label="b">traccia</rhyme>;</l>
+                <l n="474" enjamb="no">E non vi paia tal richiesta <rhyme label="c">strana</rhyme>,</l>
+                <l n="475" enjamb="yes">Che già il concesse il suo padre à <rhyme label="c">Diana</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="131">
+                <l n="476" enjamb="no">Vivi pur figlia mia vergine, e  <rhyme label="a">casta</rhyme>,</l>
+                <l n="477" enjamb="no">Le disse il padre; ma veggio in <rhyme label="b">effetto</rhyme>,</l>
+                <l n="478" enjamb="yes">Che al desiderio, c'hai troppo  <rhyme label="a">contrasta</rhyme></l>
+                <l n="479" enjamb="no">Cotesto vago tuo leggiadro <rhyme label="b">aspetto</rhyme>.</l>
+                <l n="480" enjamb="no">Febo l'ama, e la mira, e non gli  <rhyme label="a">basta</rhyme>,</l>
+                <l n="481" enjamb="no">Vorria sposarla, e far comune il <rhyme label="b">letto</rhyme>,</l>
+                <l n="482" enjamb="no">La spera, e ne compiace à i desir <rhyme label="c">sui</rhyme>,</l>
+                <l n="483" enjamb="no">Ma gli oracoli suoi mentono à <rhyme label="c">lui</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="132">
+                <l n="484" enjamb="no">Come l'arida stoppia accende il  <rhyme label="a">foco</rhyme>,</l>
+                <l n="485" enjamb="no">Ó secca siepe, e manda in aria il <rhyme label="b">vampo</rhyme>,</l>
+                <l n="486" enjamb="yes">Comincia in una parte, e à poco à  <rhyme label="a">poco</rhyme></l>
+                <l n="487" enjamb="no">Rinforza intorno, e rende maggior <rhyme label="b">lampo</rhyme>;</l>
+                <l n="488" enjamb="no">Si sparge al fin l'incendio in ogni  <rhyme label="a">loco</rhyme>,</l>
+                <l n="489" enjamb="no">E tien tutta la siepe, e tutto 'l <rhyme label="b">campo</rhyme>:</l>
+                <l n="490" enjamb="no">Così il foco di Apollo al cor <rhyme label="c">ridutto</rhyme>,</l>
+                <l n="491" enjamb="no">Al fin si sparse, e l'infiammò, per <rhyme label="c">tutto</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="133">
+                <l n="492" enjamb="no">Vede à la Ninfa inculti i suoi crin  <rhyme label="a">d'oro</rhyme>,</l>
+                <l n="493" enjamb="no">E che sarian (disse egli) essendo <rhyme label="b">ornati</rhyme>,</l>
+                <l n="494" enjamb="no">Raccolti in qualche vago, e bel  <rhyme label="a">lavoro</rhyme>,</l>
+                <l n="495" enjamb="no">Fra gemme, et oro, in piu fogge <rhyme label="b">intrecciati?</rhyme></l>
+                <l n="496" enjamb="no">Loda la maestà, loda il  <rhyme label="a">decoro</rhyme>,</l>
+                <l n="497" enjamb="no">De' santi modi suoi leggiadri, e <rhyme label="b">grati</rhyme>,</l>
+                <l n="498" enjamb="no">Ma più quel vago lume il tira, e <rhyme label="c">alletta</rhyme>,</l>
+                <l n="499" enjamb="no">Onde il folgora amor sempre, e <rhyme label="c">saetta</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="134">
+                <l n="500" enjamb="yes">D'ogni parte del viso adorna, e  <rhyme label="a">piena</rhyme></l>
+                <l n="501" enjamb="no">Di gratia, e di beltà, diletto <rhyme label="b">prende</rhyme>.</l>
+                <l n="502" enjamb="no">Di speme il pasce l'aria sua  <rhyme label="a">serena</rhyme>,</l>
+                <l n="503" enjamb="no">E la benignità, ch'ivi <rhyme label="b">risplende</rhyme>.</l>
+                <l n="504" enjamb="no">Loda la dolce bocca, e duolsi, e  <rhyme label="a">pena</rhyme>,</l>
+                <l n="505" enjamb="no">Che i frutti suoi non prova, e non <rhyme label="b">intende</rhyme>.</l>
+                <l n="506" enjamb="yes">Le braccia mezze ignude ammira, e <rhyme label="c">quelle</rhyme></l>
+                <l n="507" enjamb="no">Parti, che ascose son, crede più <rhyme label="c">belle</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="135">
+                <l n="508" enjamb="no">Vede l'accorta Ninfa il bello  <rhyme label="a">Dio</rhyme>,</l>
+                <l n="509" enjamb="no">Che così intento, e fiso la <rhyme label="b">riguarda</rhyme>,</l>
+                <l n="510" enjamb="no">E perche ha 'l cor contrario al suo  <rhyme label="a">desio</rhyme>,</l>
+                <l n="511" enjamb="no">Prende una fuga subita, e <rhyme label="b">gagliarda</rhyme>:</l>
+                <l n="512" enjamb="no">Ma non sì tosto il corso i piedi  <rhyme label="a">aprio</rhyme>,</l>
+                <l n="513" enjamb="no">Che la mossa di lui non fu men <rhyme label="b">tarda</rhyme>.</l>
+                <l n="514" enjamb="yes">Fugge ella, ei segue, e 'n queste dolci <rhyme label="c">note</rhyme></l>
+                <l n="515" enjamb="no">Le parla, nè perciò fermar la <rhyme label="c">puote</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="136">
+                <l n="516" enjamb="yes">Deh non fuggir, vaga fanciulla, e  <rhyme label="a">bella</rhyme></l>
+                <l n="517" enjamb="no">Dal gaudio d'ambedue, dal piacer <rhyme label="b">nostro</rhyme>,</l>
+                <l n="518" enjamb="yes">Come fugge colomba, ò  <rhyme label="a">tortorella</rhyme></l>
+                <l n="519" enjamb="no">De l'Aquila crudel, l'artiglio, e 'l <rhyme label="b">rostro</rhyme>,</l>
+                <l n="520" enjamb="no">Come dal lupo la timida  <rhyme label="a">agnella</rhyme>,</l>
+                <l n="521" enjamb="no">Come si fugge un spaventoso <rhyme label="b">mostro</rhyme>:</l>
+                <l n="522" enjamb="no">Ben' e'l dover, se'l nemico si <rhyme label="c">fugge</rhyme>,</l>
+                <l n="523" enjamb="no">Ma non chi per amor segue e si <rhyme label="c">strugge</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="137">
+                <l n="524" enjamb="no">Guarda quei pruni, oime, ferma i tuoi  <rhyme label="a">passi</rhyme>,</l>
+                <l n="525" enjamb="no">Che non t' involin l'aureo sparso <rhyme label="b">crine</rhyme>.</l>
+                <l n="526" enjamb="no">Oime s'in qualche tronco  <rhyme label="a">t' intoppassi</rhyme></l>
+                <l n="527" enjamb="no">Fra sì precipitose, alte <rhyme label="b">ruine</rhyme>,</l>
+                <l n="528" enjamb="no">Et io fossi cagion, che  <rhyme label="a">dirupassi</rhyme>,</l>
+                <l n="529" enjamb="no">Per aspri scogli, e fra pungenti <rhyme label="b">spine</rhyme>,</l>
+                <l n="530" enjamb="no">Qual mal potrei trovar sì duro, e <rhyme label="c">forte</rhyme>,</l>
+                <l n="531" enjamb="no">Che potesse ad un Dio porger la <rhyme label="c">morte</rhyme> ?</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="138">
+                <l n="532" enjamb="no">Deh non gir sì veloce, et habbi  <rhyme label="a">mente</rhyme></l>
+                <l n="533" enjamb="no">Se qualche acuta spina in terra <rhyme label="b">siede</rhyme>,</l>
+                <l n="534" enjamb="no">Che con la punta sua dura, e  <rhyme label="a">pungente</rhyme>,</l>
+                <l n="535" enjamb="no">Non fesse oltraggio al tuo tenero <rhyme label="b">piede</rhyme>,</l>
+                <l n="536" enjamb="no">Ó serpe, ò d'altro, insidioso  <rhyme label="a">dente</rhyme>,</l>
+                <l n="537" enjamb="no">Che s'asconde fra l'herba, e non si <rhyme label="b">vede</rhyme>.</l>
+                <l n="538" enjamb="no">Và Ninfa và, con passo men <rhyme label="c">gagliardo</rhyme>,</l>
+                <l n="539" enjamb="no">Et anchor'io ti seguirò più <rhyme label="c">tardo</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="139">
+                <l n="540" enjamb="no">Cerca, e discorri, à cui non porti  <rhyme label="a">amore</rhyme>,</l>
+                <l n="541" enjamb="no">Chi fuggi, e chi sia quel, di cui <rhyme label="b">paventi</rhyme>.</l>
+                <l n="542" enjamb="no">Io non son montanar, non son  <rhyme label="a">pastore</rhyme>,</l>
+                <l n="543" enjamb="no">Non guardo rozzo qui gregge, od <rhyme label="b">armenti</rhyme>:</l>
+                <l n="544" enjamb="no">Deh volgi un poco à me la fronte, e 'l  <rhyme label="a">core</rhyme>,</l>
+                <l n="545" enjamb="no">Tien nel mio volto i tuoi begli occhi <rhyme label="b">intenti</rhyme>,</l>
+                <l n="546" enjamb="yes">Non sai stolta, non sai chi fuggi; e <rhyme label="c">credi</rhyme></l>
+                <l n="547" enjamb="no">Forse molto veder, ma nulla <rhyme label="c">vedi</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="140">
+                <l n="548" enjamb="no">Huom terrestre io non son, ma dio del  <rhyme label="a">cielo</rhyme>,</l>
+                <l n="549" enjamb="no">Ben che'n terra ho domino illustre, e <rhyme label="b">raro</rhyme>;</l>
+                <l n="550" enjamb="no">Che son signor di Tenedo, e di  <rhyme label="a">Delo</rhyme>,</l>
+                <l n="551" enjamb="no">E di Delfo, e di Patara, e di <rhyme label="b">Claro</rhyme>:</l>
+                <l n="552" enjamb="no">Toglio à la notte il tenebroso  <rhyme label="a">velo</rhyme>,</l>
+                <l n="553" enjamb="no">E rendo al mondo il dì splendido, e <rhyme label="b">chiaro</rhyme>.</l>
+                <l n="554" enjamb="no">Quel ch'è, ciò che già fu, quanto poi <rhyme label="c">fia</rhyme>,</l>
+                <l n="555" enjamb="no">Si può saper per la scientia <rhyme label="c">mia</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="141">
+                <l n="556" enjamb="yes">Io son figliuol del sommo Giove, e  <rhyme label="a">sono</rhyme></l>
+                <l n="557" enjamb="no">Quel, che incordando i nervi al cavo <rhyme label="b">legno</rhyme>,</l>
+                <l n="558" enjamb="no">Rendo col canto mio sì dolce  <rhyme label="a">tuono</rhyme>,</l>
+                <l n="559" enjamb="no">Che rompo, e placo ogni rancore, e <rhyme label="b">sdegno</rhyme>.</l>
+                <l n="560" enjamb="no">E s'hora havessi il plettro, e al suo bel  <rhyme label="a">suono</rhyme>,</l>
+                <l n="561" enjamb="yes">Potessi 'l canto unir, forse che <rhyme label="b">degno</rhyme></l>
+                <l n="562" enjamb="no">Faresti me, ch' io ti mirassi <rhyme label="c">alquanto</rhyme>,</l>
+                <l n="563" enjamb="no">Vinto dal vario suon, dal dolce <rhyme label="c">canto</rhyme>.</l>
+            </lg>
+            <lg type="ottava" rhyme="abababcc" n="142">
+                <l n="565" enjamb="yes">Non si trova ferir più fermo, e  <rhyme label="a">vero</rhyme></l>
+                <l n="566" enjamb="no">De l'arco mio, ne più certa <rhyme label="b">saetta</rhyme>.</l>
+                <l n="567" enjamb="no">Anzi m' ha vinto un più sicuro  <rhyme label="a">arciero</rhyme>,</l>
+                <l n="568" enjamb="no">Che da' begli occhi tuoi fere, e <rhyme label="b">saetta</rhyme>;</l>
+                <l n="569" enjamb="no">Ho ne la medicina il sommo  <rhyme label="a">impero</rhyme>,</l>
+                <l n="570" enjamb="no">La gran virtù de l'herbe è à me <rhyme label="b">soggetta</rhyme>;</l>
+                <l n="571" enjamb="no">Oime non vaglion' herbe à l'amor <rhyme label="c">mio</rhyme>,</l>
+                <l n="572" enjamb="no">Nè quel, che giova altrui, giova al suo <rhyme label="c">Dio</rhyme>.</l>
+            </lg>
+        </div2>
+
+    <div3 type="appendix">
+        <head>Annotationi del Primo Libro</head>
+        <p>Seguendo <author xml:id="PON">Ovidio</author> l'opinione di <name type="person">Hesiodo</name>, e di <name type="person">Euripide</name> descrive nel principio di questo primo libro delle <title>Metamorfosi</title>, il <name>Chaos</name> che è quella prima materia; e quella prima confusione d' Elementi amassati insieme, dalla quale si spicca per opra del grand' Iddio questa bella distinta, e vaghissima faccia di mondo; legiadramente espressa da l'<name type="person">Anguillara</name>, nella stanza, Pria che 'l Ciel fosse il mar, la terra e 'l foco; e nelle due seguente, come si vede anchora felicissimamente spiegata la divisione de gli elementi, insieme con la discordia, e dapoi l'amicitia loro, le cinque Zone della Sfera, le due estreme, vicine a i poli aggiacciate, quella di mezzo arrida e arsa, come quella che sente il maggiore vigore de'l Sole; e le due temperate poste fra questa, e quelle.</p>
+        [...]
+        <p>Aquistossi <name type="person">Apollo</name> dopò haver ispento il nocevole <name type="person">Pithone</name>, il nome di <name type="person">Pithio</name>, e diedelo anchora ad alcuni giochi, che si facevano a gara nel correre, saltare e far alla lota; e i vincitori ne riportavano in segno della vittoria corone di frondi de Quercia arbore all'hora grato a <name type="person">Febo</name>, come quello che non era anchora acceso dell'amore di <name type="person">Daphne</name>, ne preso per suo il lauro tanto bramato e da gli Imperatori, e da i Poeti come insegna de i loro perpetui honori.</p>
+        <p>La contentione del tirare dell'archo tra <name type="person">Febo</name>, e <name type="person">Cupido</name>, non è altro che quella che è fra utile e il dilettevole nel mondo le saette di <name type="person">Febo</name> che sono i suoi raggi, sono utilissime perche giovano a gli animali, al produrre della terra, e a' frutti e quelle di <name type="person">Cupido</name>, sono soavissime e tanto che offuscano con grandissima forza l'intelletto, e la ragione all'huomo; onde per far conoscere meglio <name type="person">Cupido</name> quanto le ferite de' suoi strali fussero maggiori e più profonde; impiegò il core dell'istesso <name type="person">Apollo</name> con una saetta d'oro, la virtù della quale fu di spingerlo ad amare ardentemente come anchora ferì il core di <name type="person">Daphne</name> d'una di piombo che per la sua frigidità fa contrario effetto rendendoci il piombo tardi, e pigri ne i piaceri amorosi.</p>
+        <p><name type="person">Daphne</name> cangiata in Lauro alle sponde del fiume Peneo, il quale scorre per la valle Tempe amenissima selva nella Emonia è detta vagamente questa trasformatione per seere quella valle piena de Lauri; che la fusse poi cangiata in quest'arbore fuggendo i piaceri amorosi di <name type="person">Apollo</name> si può vedere la sua vaghezza per la simiglianza che hà quest'arbore con la castità, la quale vuole esser perpetua come è perpetuo il verde del Lauro; e stridere e far resistenza alle fiamme d'amore come stridono, e resisteno le sue foglie e i suoi rami gettati sopra 'l fuoco; alcuni hanno voluto poi dire che <name type="person">Ovidio</name> finse questa favola in piacere di <name type="person">Augusto</name> figurandolo cosi per <author xml:id="PON">Apollo</author>, come <name type="person">Livia</name> per <name type="person">Daphne</name>. Chiamasi il Lauro poi arbore di <name type="person">Apollo</name> che è Dio degli Oracoli, e dell'indovinare per essere le sue frondi atte a far indovinare in sogno, poste sotto il capo de chi vuole quando va a dormire.</p>
+    </div3>
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,252 @@
+
+a {
+	color:#684fe8;
+}
+
+a:hover {
+	color:#f4881e;
+}
+
+.approfondimento img {
+	width: 100%;
+	object-fit:cover;
+}
+
+.border {
+	border-color: white;
+	border-radius: 6px;
+}
+
+.background-footer {
+	background-color:#252850;
+	color:white;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.background-opacity {
+	background-color:#d8dfd8;
+	border:1px solid black;
+	border-radius:0.25rem;
+	padding:50px, 60px, 50px, 60px;
+}
+
+.bg-piè {
+	background-color:#d8dfd8;
+}
+
+.bradcrumb {
+	background:white;
+}
+
+.button-filtri {
+	margin-left:950px;
+}	
+
+.btn-primary {
+	background-color: #243d8a;
+	border-color: #243d8a
+}
+
+.button-mito {
+	margin-left:240px;
+}
+
+.button-scheda {
+	margin-left:200px;
+}
+
+.button-scheda-2 {
+	margin-left:190px;
+}
+
+
+.button-autore {
+	margin-left: 120px;
+}
+
+.button-cronologia {
+	margin-left:215px;
+}
+
+.button-light:hover {
+	background-color:#a0a3a8;
+	border-color: black;
+}
+
+.card-foto img {
+	height:737px;
+}
+
+.card-carousel {
+	height:350px;
+	width:650px;
+}
+
+.carousel img {
+	width: 100px;
+	height: 348px;
+	object-fit: cover;
+	object-position: 100% 0;
+}
+
+.carousel-caption {
+	background-color: rgba(26, 26, 26, .7); 
+	left: 0; 
+	right: 0; 
+	width: 100%;
+}
+
+.carousel-caption h5 {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.card-autore img {
+	height:100%;
+	width:100%;
+}
+
+.card-foto {
+	height:739px;
+}
+
+
+.cerca {
+	background-color:#f4881e;
+}
+
+.cerca:hover {
+	background-color:#e22d0c;
+}
+
+.copertina img {
+	height:auto;
+	width:100%;
+}	
+
+.cataloghi {
+	background-color:#d8dfd8;
+	color:black; 
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-right:100px;
+	padding-left:100px;
+}
+
+.card:hover {
+	object-fit: cover;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.20), 0 10px 30px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-no-shadow:hover {
+	box-shadow: none;
+}
+
+
+.card-img-top {
+	width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	min-width:0;
+	word-wrap:break-word;
+}
+
+.container-catalogo {
+	background-color:#d8dfd8;
+	text-align:center;
+	height:70px;
+	font-family: Tahoma;
+	text-shadow: 1px 1px #422057ff;
+}	
+
+.card-item img {
+	width: 100%;
+    height: 400px;
+    object-fit: cover;
+}	
+
+h1 {
+	font-size:70px;
+	border-color:#c24119;
+	border-radius:6px;
+	color:#f4881e;
+	letter-spacing:10px;
+	text-shadow: 5px 5px #422057ff;
+}
+
+h2 {
+	padding-bottom:30px;
+}
+
+.icona {
+	font-size: 30px;
+}
+
+
+.link-footer {
+	color:white;
+	text-decoration: underline;
+}
+
+.link-footer:hover {
+	color:grey;
+}
+
+.navbar {
+	height:100px;
+	background-color:#252850;
+	color:white;
+}
+
+.navbar-brand {
+	font-family: Tahoma;
+	font-size:30px;
+}
+
+.progetto {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.page-link {
+	color:black;
+}
+
+.strumenti {
+	background-color:#252850;
+}
+
+
+.sfondo-opera {
+	background-attachment: fixed;
+	background-image: url(immag/waterhouse.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.scrollable-bar {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.titolo {
+	text-align: center;
+	background-color:;
+	color:white;		
+	font-family: Tahoma;
+	height:150px;
+	padding:25px;
+	background-image: url(immag/escher-2.jpg);
+    background-position: center;
+    background-repeat:repeat;
+    align-content: middle;
+    opacity:
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- metadati DC -->
+    <meta name="DC.Title" content="Metamorphosis">
+    <meta name="DC.Creator.PersonalName" content="Agata Soldi">
+    <meta name="DC.Creator.PersonalName.Address" content="agata.soldi@studio.unibo.it">
+    <meta name="DC.Subject" content="markup languages">
+    <meta name="DC.Subject" content="edizione digitale">
+    <meta name="DC.Subject" content="XML/TEI">
+    <meta name="DC.Subject" content="collezione digitale">
+    <meta name="DC.Subject" content="markup languages">
+    <meta name="DC.Subject" scheme="VIAF" content="Ovidio">
+    <meta name="DC.Subject" scheme="BNCF" content="poema-epico mitologico">
+    <meta name="DC.Subject" scheme="BNCF" content="Letteratura classica">
+    <meta name="DC.Description" content="Catalogo digitale di item trasmessi su supporti eterogenei relativi alle Metamorfosi di Ovidio che attestano la fortuna e la ricezione del poema-epico nel corso dei secoli">
+    <meta name="DC.Publisher"
+        content="Alma Mater Studiorum, Università di Bologna, dipartimento di Arti Visive">
+    <meta name="DC.Contributor" content="Agata Soldi">
+    <meta name="DC.Date" content="08/07/2021">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS/XML">
+    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io"><!--inserire github-->
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation"content="http://www.progettovidio.it/opereintraduzioneintegrale.asp">
+    <meta name="DC.Rights"content="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+
+    <title>Metamorphosis</title>
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+<!-- link al css -->
+    <link rel="stylesheet" href="foglio-di-stile.css"/>
+
+<!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    
+</head>
+
+<body>
+
+  <header>
+<!-- titolo -->
+    <div class="container-fluid titolo">
+      <h1 class="font-weight-bold">Metamorphosis</h1>
+    </div>
+
+<!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.htm">Metamorphosis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.htm">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scopri-di-più">Progetto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catalogo testi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="catalogo-testi.htm">Elenco completo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Autori</a>
+              <a class="dropdown-item" href="#">Date</a>
+              <a class="dropdown-item" href="#">Luoghi</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catalogo multimediale
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="catalogo-opere.htm">Elenco completo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Autori</a>
+              <a class="dropdown-item" href="#">Date</a>
+              <a class="dropdown-item" href="#">Luoghi</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Altri percorsi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Eroi del mito</a>
+              <a class="dropdown-item" href="#">Episodi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Libri</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0 cerca" type="submit">Cerca</button>
+        </form>
+      </div>
+    </nav>
+
+<!-- carousel -->
+    <div class="copertina">
+      <img src="immag/copertina-definitiva.jpg">
+    </div>
+
+  </header>
+
+<!-- progetto -->
+  <main>
+      <section class="container-fluid text-justify" id="scopri-di-più">
+          <div class="container progetto">
+            <h2>Il progetto</h2>
+            <p>Metamorphosis è un progetto nato nell'ambito del corso di Digital Humanities e Patrimonio Culturale del corso di Laurea Magistrale in Arti Visive dell'Università di Bologna. Obiettivi principali del progetto sono la catalogazione, la metadatazione e la valorizzazione di oggetti culturali trasmessi su supporti eterogenei aventi come argomento unificante l'opera di Ovidio, le Metamorfosi. Il catalogo raccoglie oggetti multimediali di vario tipo: testi letterari, dipinti, sculture, incisioni, audio e video.</p>
+            <p>È navigabile attraverso due cataloghi:</p>
+            <div class="it-list-wrapper">
+                <ul class="it-list">
+                  <li>
+                      <div class="it-right-zone" target="_blank"><span class="text"><a href="catalogo-testi.htm"><b>Catalogo testi</b></a></span>
+                      </div>
+                  </li>
+                </ul>
+                <ul class="it-list">
+                  <li>
+                      <div class="it-right-zone" target="_blank"><span class="text"><a href="catalogo-opere.htm"><b>Catalogo opere</b></a></span>
+                      </div>
+                  </li>
+                </ul>
+            </div>
+            <p>Gli item sono anche navigabili tramite le sezioni <b><a href="#">Persone</a></b>, <b><a href="#">Cronologia</a></b> e <b><a href="#">Mappa dei luoghi</a></b>. Il catalogo è consultabile infine tramite percorsi alternativi che permettono di navigare il sito per <b><a href="#">Eroi del mito</a></b>, <b><a href="#">Episodi</a></b> o seguendo la divisione in <b><a href="#">Libri</a></b> delle Metamorfosi di Ovidio.</p>
+          </div>
+      </section>
+
+<!-- container strumenti -->
+      <section class="container-fluid cataloghi">
+        <h2>Cataloghi</h2>
+        <p></p>
+<!-- strumenti -->
+         <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Catalogo testi</h5>
+                <p class="card-text">Il contenuto del catalogo testi è consultabile nella sezione Elenco completo. Si possono ordinare in ordine cronologico o alfabetico e filtrare per editore, tipologia testuale, lingua e autore.</p>
+                <a href="catalogo-testi.htm" class="btn btn-danger">Esplora catalogo testi</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Catalogo opere</h5>
+                <p class="card-text">Il contenuto del catalogo opere è consultabile nella sezione Elenco completo. Si possono ordinare in ordine cronologico o alfabetico e filtrare per tipo di supporto, istituzione fornitrice, autore e soggetto raffigurato.</p>
+                <a href="catalogo-opere.htm" class="btn btn-danger">Eslora catalogo opere</a>
+              </div>
+            </div>
+          </div>
+        </div>             
+      </section>
+   
+<!-- percorsi -->
+      <section class="container-fluid strumenti">
+        <h2 class="text-white pt-5 pl-5">Strumenti per la navigazione</h2>
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card bg-light mb-3 card-item" style="max-width: 18rem;">
+                <div class="card-header text-center"><i class="bi bi-person-circle icona"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Persone</h5>
+                  <p class="card-text text-justify">Visualizza gli autori che hanno realizzato o hanno contribuito alla reaizzazione degli item presentati nel catalogo.</p>
+                  <a href="#" class="btn btn-info">Visualizza persone</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-light mb-3 card-item ml-4" style="max-width: 18rem;">
+                <div class="card-header text-center"><i class="bi bi-clock-history icona"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Cronologia</h5>
+                  <p class="card-text">Visualizza gli oggetti ordinati cronologicamente, oppure seleziona le opere prodotte entro un preciso arco temporale.</p>
+                  <a href="#" class="btn btn-info">Visualizza  cronologia</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-light mb-3 card-item ml-5" style="max-width: 18rem;">
+                <div class="card-header text-center"><i class="bi bi-pin-map-fill icona"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Mappa dei luoghi</h5>
+                  <p class="card-text text-justify">Visualizza la mappa dei luoghi dove sono conservati gli item catalogati o scopri i luoghi legati agli autori.</p>
+                  <a href="#" class="btn btn-info">Visualizza mappa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid sfondo-opera">
+        <div class="container pt-5 pb-5">
+          <div class="col-md-6 background-opacity pl-5 pr-5 text-justify">
+            <h2 class="pt-4">Altri percorsi</h2>
+            <p>Il catalogo è consultabile infine tramite percorsi alternativi che permettono di navigare il sito per eroi del mito, episodi o seguendo la divisione in libri delle Metamorfosi di Ovidio.</p>
+            <!-- Split dropright button -->
+            <div class="btn-group dropright pt-3">
+              <button type="button" class="btn btn-info">
+                Eroi del mito
+              </button>
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu scrollable-bar">
+                <a class="dropdown-item" href="#">Apollo</a>
+                <a class="dropdown-item" href="#">Argo</a>
+                <a class="dropdown-item" href="#">Dafne</a>
+                <a class="dropdown-item" href="#">Deucalione</a>
+                <a class="dropdown-item" href="#">Fetonte</a>
+                <a class="dropdown-item" href="#">Giove</a>
+                <a class="dropdown-item" href="#">Io</a>
+                <a class="dropdown-item" href="#">Licaone</a>
+                <a class="dropdown-item" href="#">Mercurio</a>
+                <a class="dropdown-item" href="#">Pan</a>
+                <a class="dropdown-item" href="#">Pirra</a>
+                <a class="dropdown-item" href="#">Pitone</a>
+                <a class="dropdown-item" href="#">Prometeo</a>
+                <a class="dropdown-item" href="#">Siringa</a>
+              </div>
+            </div>
+            <br>
+            <!-- Split dropright button -->
+            <div class="btn-group dropright pt-4">
+              <button type="button" class="btn btn-info">
+                Episodi
+              </button>
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu scrollable-bar">
+                <a class="dropdown-item" href="#">Origine del mondo</a>
+                <a class="dropdown-item" href="#">Prometeo crea l'uomo</a>
+                <a class="dropdown-item" href="#">Le quattro età dell'uomo</a>
+                <a class="dropdown-item" href="#">Gigantomachia</a>
+                <a class="dropdown-item" href="#">Via Lattea</a>
+                <a class="dropdown-item" href="#">Giove e Licaone</a>
+                <a class="dropdown-item" href="#">Deucalione e Pirra</a>
+                <a class="dropdown-item" href="#">Apollo e Pitone</a>
+                <a class="dropdown-item" href="#">Apollo e Dafne</a>
+              </div>
+            </div>
+            <br>
+            <!-- Split dropright button -->
+            <div class="btn-group dropright pt-4 pb-4">
+              <button type="button" class="btn btn-info">
+                Testo
+              </button>
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu scrollable-bar">
+                <a class="dropdown-item" href="#">Libro I</a>
+                <a class="dropdown-item" href="#">Libro II</a>
+                <a class="dropdown-item" href="#">Libro III</a>
+                <a class="dropdown-item" href="#">Libro IV</a>
+                <a class="dropdown-item" href="#">Libro V</a>
+                <a class="dropdown-item" href="#">Libro VI</a>
+                <a class="dropdown-item" href="#">Libro VII</a>
+                <a class="dropdown-item" href="#">Libro VIII</a>
+                <a class="dropdown-item" href="#">Libro IX</a>
+                <a class="dropdown-item" href="#">Libro X</a>
+                <a class="dropdown-item" href="#">Libro XI</a>
+                <a class="dropdown-item" href="#">Libro XII</a>
+                <a class="dropdown-item" href="#">Libro XIII</a>
+                <a class="dropdown-item" href="#">Libro XIV</a>
+                <a class="dropdown-item" href="#">Libro XV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+<!-- footer -->
+  <footer>
+        <div class="container-fluid text-justify background-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                    <h3>Progetto</h3>
+                    <p>Metamorphosis è un progetto nato nell'ambito del corso di Digital Humanities e Patrimonio Culturale del corso di Laurea Magistrale in Arti Visive dell'Università di Bologna.</p>
+                    <a href="#scopri-di-più"><button type="button" class="btn btn-outline-dark btn-sm cerca">Scopri di più</button></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contatti</h3>
+                    <a href="https://www.unibo.it/it"><p class="link-footer">Alma Mater Studiorum - Università di Bologna</p></a>
+                    <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725"><p class="link-footer">Digital Humanities e Patrimonio Culturale</p></a>
+                    <a href="https://dar.unibo.it/it/index.html"><p class="link-footer">Dipartimento delle Arti - Unibo</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Licenza</h3>
+                    <p class="link-footer"><a rel="license" class="mb-3" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" class="mt-1" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
+                    <p>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="link-footer">Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid text-justify background-light">
+            <p class="text-center mb-0 p-2">&copy; Copyright 2021 Agata Soldi - Arti Visive, Università di Bologna</p>
+        </div>
+  </footer>
+
+
+
+
+<!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="crossorigin="anonymous"></script>
+
+<!-- Bootrstap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+

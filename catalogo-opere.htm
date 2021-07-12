@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+<!-- link al css -->
+    <link rel="stylesheet" href="foglio-di-stile.css"/>
+
+<!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Catalogo opere</title>
+
+</head>
+
+<body>
+
+  <header>
+	<!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.htm">Metamorphosis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.htm">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Progetto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catalogo testi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="catalogo-testi.htm" target="_blank">Elenco completo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Autori</a>
+              <a class="dropdown-item" href="#">Date</a>
+              <a class="dropdown-item" href="#">Luoghi</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catalogo multimediale
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="catalogo-opere.htm">Elenco completo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Autori</a>
+              <a class="dropdown-item" href="#">Date</a>
+              <a class="dropdown-item" href="#">Luoghi</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Altri percorsi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Eroi del mito</a>
+              <a class="dropdown-item" href="#">Episodi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Libri</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0 cerca" type="submit">Cerca</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+<!-- catalogo testi -->
+  <main>
+    <section class="container-fluid">
+      <div class="row container-catalogo">
+        <div class="col-md">
+          <h2 class="mt-3">Catalogo multimediale</h2>
+        </div>
+      </div>
+  <!-- breadcrumb row -->
+      <div class="row">
+        <div class="col-md-2">
+          <!-- bradcrumb -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mt-3 bg-white">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Catalogo opere</li>
+            </ol>
+          </nav>
+  <!-- buttons ordine -->
+          <p>Riordina catalogo</p>
+          <button type="button" class="btn btn-danger">A-Z</button>
+          <button type="button" class="btn btn-info">Z-A</button>
+          <button type="button" class="btn btn-info mt-2">Ordine Cronologico</button>
+
+  <!-- chiusura row -->
+        </div>
+  <!-- filtri -->
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="mt-4">
+                <a class="btn btn-light btn-outline-dark button-filtri" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Filtri<i class="bi bi-chevron-compact-down ml-2"></i>
+                </a>
+              </p>
+              <div class="collapse scrollable-bar" id="collapseExample">
+                <div class="card card-body">
+                  <div class="row">
+                  <div class="col-md-3">
+                  <p>Tipo di supporto</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Immagine
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Video
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Audio
+                    </label>
+                  </div>
+                  </div>
+                  <div class="col-md-3">
+                  <p>Istutizione fornitrice</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Collezione privata
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Museo del Louvre, Parigi, Francia
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Musée d'Art et d'Historie, Ginevra
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      MetsTeca
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Tate Gallery, Londra
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Villa Medicea, Poggia a Caiano
+                    </label>
+                  </div>
+                  </div>
+                  <div class="col-md-3">
+                  <p>Autore</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Broc, Jean
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Canova, Antonio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Cellini, Benvenuto
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Dalì, Salvador
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Gentileschi, Artemisia
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Pontormo
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Tiepolo, Giambattista
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Velázquez, Diego
+                    </label>
+                  </div>
+                  </div>
+                  <div class="col-md-3">
+                  <p>Soggetto</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Apollo
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Dafne
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Deucalione
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Licaone
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Mercurio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Narciso
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Pirra
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Pitone
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Pomona
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Vertumno
+                    </label>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="row mt-3">
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="immag/apollo-tiepolo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Apollo e Dafne</h5>
+                      <p class="card-text">
+                      <span>Creatore:</span>
+                      <b>
+                        <a href="http://viaf.org/viaf/71399712" target="_blank" title="Identificativo VIAF di Tiepolo,  Giambattista">Tiepolo, Giambattista
+                          <sup>VIAF</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <p class="card-text">Data: <b>1743-1744</b></p>
+                      <p class="card-text">
+                      <span>Istituzione fornitrice:</span>
+                      <b>
+                        <a href="https://it.wikipedia.org/wiki/Museo_del_Louvre" target="_blank" title="Vedi su Wikipedia">Museo del Louvre, Parigi
+                          <sup>Wikipedia</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <a href="item.htm" target="blank_" class="btn btn-primary mt-4">Tutti i metadati</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card ml-4" style="width: 18rem;">
+                    <img src="immag/canova.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Adone e Venere</h5>
+                      <p class="card-text">
+                      <span>Creatore:</span>
+                      <b>
+                        <a href="http://viaf.org/viaf/36965536" target="_blank" title="Identificativo VIAF di Canova,  Antonio">Canova, Antonio
+                          <sup>VIAF</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <p class="card-text">Data: <b>1789-1794</b></p>
+                      <p class="card-text">
+                        <span>Istituzione fornitrice:</span>
+                      <b>
+                        <a href="https://it.wikipedia.org/wiki/Musée_d%27art_et_d%27histoire_di_Ginevra" target="_blank" title="Vedi su Wikipedia">Musée d'Art et d'Historie, Ginevra
+                          <sup>Wikipedia</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <a href="#" class="btn btn-primary mt-5">Tutti i metadati</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card ml-5" style="width: 18rem;">
+                    <img src="immag/vaso-dafne.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Peneo trasforma Dafne in alloro</h5>
+                      <p class="card-text">Creatore: Anonimo</p>
+                      <p class="card-text">Data: <b>sec. XVI</b></p>
+                      <span>Istituzione fornitrice:</span>
+                      <p class="card-text">
+                      <b>
+                        <a href="https://it.wikipedia.org/wiki/Musée_d%27art_et_d%27histoire_di_Ginevra" target="_blank" title="Vedi su Wikipedia">Musée d'Art et d'Historie, Ginevra
+                          <sup>Wikipedia</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <a href="#" class="btn btn-primary mt-1">Tutti i metadati</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-3">
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="immag/giacinto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">La morte di Giacinto</h5>
+                      <p class="card-text">
+                      <span>Creatore:</span>
+                      <b>
+                        <a href="http://viaf.org/viaf/225097164" target="_blank" title="Identificativo VIAF di Broc,  Jean">Broc, Jean
+                          <sup>VIAF</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <p class="card-text">Data: <b>1801</b></p>
+                      <p class="card-text">
+                      <span>Istituzione fornitrice:</span>
+                      <b>
+                        <a href="https://en.wikipedia.org/wiki/Musée_Sainte-Croix" target="_blank" title="Vedi su Wikipedia">Musée Sainte-Croix
+                          <sup>Wikipedia</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <a href="#" class="btn btn-primary mt-4">Tutti i metadati</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card ml-4" style="width: 18rem;">
+                    <img src="immag/strauss.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mondlichtmusik</h5>
+                      <p class="card-text">
+                      <span>Creatore:</span>
+                      <b>
+                        <a href="https://viaf.org/viaf/24796264" target="_blank" title="Identificativo VIAF di Strauss, Richard">Strauss, Richard
+                          <sup>VIAF</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <p class="card-text">Data: <b>1937</b></p>
+                      <p class="card-text">
+                      <span>Istituzione fornitrice:</span>
+                      <b>
+                        <a href="https://commons.wikimedia.org/wiki/Category:Daphne_(opera)?uselang=it" target="_blank" title="Vedi su Wikipedia">Wikimedia Commons
+                          <sup>Wikipedia</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <a href="#" class="btn btn-primary mt-4">Tutti i metadati</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card ml-5" style="width: 18rem;">
+                    <img src="immag/dalì.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Metamorfosi di Narciso</h5>
+                      <p class="card-text">
+                      <span>Creatore:</span>
+                      <b>
+                        <a href="http://viaf.org/viaf/64004109" target="_blank" title="Identificativo VIAF di Dalì, Salvador">Dalì, Salvador
+                          <sup>VIAF</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <p class="card-text">Data: <b>1937</b></p>
+                      <p class="card-text">
+                      <span>Istituzione fornitrice:</span>
+                      <b>
+                        <a href="https://it.wikipedia.org/wiki/Tate" target="_blank" title="Vedi su Wikipedia">Tate Gallery, Londra
+                          <sup>Wikipedia</sup>
+                        </a>
+                      </b>
+                      </p>
+                      <a href="#" class="btn btn-primary mt-4">Tutti i metadati</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-5 pb-5">
+                <div class="col-md-12">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item">
+                        <a class="page-link pag" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+  <!-- chiusura row -->
+      </div>
+    <!-- chiusura container -->
+    </section>
+  </main>
+
+  <!-- footer -->
+    <footer>
+        <div class="container-fluid text-justify background-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                    <h3>Progetto</h3>
+                    <p>Metamorphosis è un progetto nato nell'ambito del corso di Digital Humanities e Patrimonio Culturale del corso di Laurea Magistrale in Arti Visive dell'Università di Bologna.</p>
+                    <a href="#scopri-di-più"><button type="button" class="btn btn-outline-dark btn-sm cerca">Scopri di più</button></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contatti</h3>
+                    <a href="https://www.unibo.it/it"><p class="link-footer">Alma Mater Studiorum - Università di Bologna</p></a>
+                    <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725"><p class="link-footer">Digital Humanities e Patrimonio Culturale</p></a>
+                    <a href="https://dar.unibo.it/it/index.html"><p class="link-footer">Dipartimento delle Arti - Unibo</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Licenza</h3>
+                    <p class="link-footer"><a rel="license" class="mb-3" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" class="mt-1" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
+                    <p>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="link-footer">Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid text-justify background-light">
+            <p class="text-center mb-0 p-2">&copy; Copyright 2021 Agata Soldi - Arti Visive, Università di Bologna</p>
+        </div>
+  </footer>
+
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="crossorigin="anonymous"></script>
+
+<!-- Bootrstap JS -->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

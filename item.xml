@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--root-->
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <dc:title>Apollo e Dafne</dc:title>
+    <dc:creator xsi:type="dcterms:VIAF" mp:ref="http://viaf.org/viaf/71399712">Tiepolo, Giambattista</dc:creator>
+    <dc:subject>arte, arti visive, pittura, dipinto, barocco, rococò, poema, letteratura classica, Ovidio, Metamorfosi, Apollo, Dafne, Giambattista Tiepolo</dc:subject>
+    <!--classificazione dipinto-->
+    <dc:subject xsi:type="dcterms:UDC">75</dc:subject>
+    <!--soggetto rococò-->
+    <dc:subject xsi:type="dcterms:UDC">7.034</dc:subject>
+    <!--soggetto letteratura classica-->
+    <dc:subject xsi:type="dcterms:LCC">P A3000-3049</dc:subject>
+    <!--soggetto metamorfosi-->
+    <dc:subject xsi:type="dcterms:LCSH">https://lccn.loc.gov/2021667680</dc:subject>
+    <!--soggetto dafne-->
+    <dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/NX652.D25</dc:subject>
+    <!--soggetto apollo-->
+    <dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/N7763.A66</dc:subject>
+
+    <dc:description>"Apollo e Dafne" è un olio su tela realizzato dal pittore Giambattista Tiepolo realizzato tra il 1743 e il 1744. Raffigura il momento della metamorfosi di Dafne che, per fuggire da Apollo, viene trasformata in una pianta di alloro. L'episodio è raccontato da Ovidio nel Libro I delle "Metamorfosi".</dc:description>
+    <dc:publisher>Metamorphosis, progetto di Digital Humanities</dc:publisher>
+    <dc:contributor>Agata Soldi</dc:contributor>
+    <dc.date type="creation">1743-1744</dc.date>
+    <dc:date type="subject">8 d.C.</dc:date>
+    <dc:type>Dipinto</dc:type>
+    <dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
+    <dc:format>1000×1243 mm</dc:format>
+    <dc:extent>179.525 bytes</dc:extent>
+    <dc:identifier xsi:type="dcterms:URI">file:///Users/agatasoldi/Desktop/metamorphosis/item.htm</dc:identifier>
+    <dc:source>https://collections.louvre.fr/ark:/53355/cl010059432</dc:source>
+    <dc:coverage xsi:type="TGN" mp:ref=" http://vocab.getty.edu/page/tgn/7625108">Museo del Louvre, Parigi</dc:coverage>
+</mp:metadata>
+
