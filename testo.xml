@@ -138,7 +138,7 @@
                 <l n="1" enjamb="yes">Le forme in novi corpi <rhyme label="a">trasformate</rhyme></l>
                 <l n="2" enjamb="no">Gran desio di cantar m'infiamma il <rhyme label="b">petto</rhyme>,</l>
                 <l n="3" enjamb="no">Da i tempi primi à la felice <rhyme label="a">etate</rhyme>,</l>
-                <l n="4" enjamb="no">Che fu capo à l'imperio <name>Augusto</name> <rhyme label="b">eletto</rhyme>.</l>
+                <l n="4" enjamb="no">Che fu capo à l'imperio <name type="person">Augusto</name> <rhyme label="b">eletto</rhyme>.</l>
                 <l n="5" enjamb="no">Dei, c'havete non pur quelle <rhyme label="a">cangiate</rhyme>,</l>
                 <l n="6" enjamb="no">Ma tolto à voi piu volte il proprio <rhyme label="b">aspetto</rhyme>,</l>
                 <l n="7" enjamb="no">Porgete à tanta impresa tale <rhyme label="c">aita</rhyme>,</l>
@@ -146,19 +146,19 @@
             </lg>
             <lg type="ottava" rhyme="abababcc" n="2">
                 <l n="9" enjamb="yes">E tu, se ben tutto hai l'animo <rhyme label="a">intento</rhyme></l>
-                <l n="10" enjamb="no">Invittissimo <name>Henrico</name> al fero <rhyme label="b"><name>Marte</name></rhyme>,</l>
+                <l n="10" enjamb="no">Invittissimo <name type="person">Henrico</name> al fero <rhyme label="b"><name type="person">Marte</name></rhyme>,</l>
                 <l n="11" enjamb="yes">Mentr'io sotto il tuo nome ardisco, e <rhyme label="a">tento</rhyme></l>
                 <l n="12" enjamb="no">Di figurar sì bei concetti in <rhyme label="b">carte</rhyme>,</l>
                 <l n="13" enjamb="no">Fammi del favor tuo tal'hor <rhyme label="a">contento</rhyme>,</l>
                 <l n="14" enjamb="no">Che le tue gratie à noi largo <rhyme label="b">comparte</rhyme>:</l>
                 <l n="15" enjamb="no">Che s'esser grato à te vedrò il mio <rhyme label="c">carme</rhyme>,</l>
-                <l n="16" enjamb="no">Farò cantar le <name>Muse</name> al suon de l'<rhyme label="c">arme</rhyme>.</l>
+                <l n="16" enjamb="no">Farò cantar le <name type="person">Muse</name> al suon de l'<rhyme label="c">arme</rhyme>.</l>
             </lg>
             <!-- apollo e dafne -->
             <lg type="ottava" rhyme="abababcc" n="128">
-                <l n="452" enjamb="yes"><name>Dafne</name>, figlia à <name>Peneo</name>, fu l'alma, e  <rhyme label="a">bella</rhyme></l>
+                <l n="452" enjamb="yes"><name type="person">Dafne</name>, figlia à <name type="person">Peneo</name>, fu l'alma, e  <rhyme label="a">bella</rhyme></l>
                 <l n="453" enjamb="no">Ninfa, che allhor solinga se ne <rhyme label="b">giva</rhyme>,</l>
-                <l n="454" enjamb="yes">E cercando imitar <name>Diana</name>, anch' <rhyme label="a">ella</rhyme></l>
+                <l n="454" enjamb="yes">E cercando imitar <name type="person">Diana</name>, anch' <rhyme label="a">ella</rhyme></l>
                 <l n="455" enjamb="no">u de l'huom sempre mai nemica, e <rhyme label="b">schiva</rhyme>.</l>
                 <l n="456" enjamb="no">Molti, e molti cercar per moglie  <rhyme label="a">havella</rhyme></l>
                 <l n="457" enjamb="no">er l'immensa beltà, che'n lei <rhyme label="b">fioriva</rhyme>:</l>
@@ -183,14 +183,14 @@
                 <l n="472" enjamb="yes">Che casta io possa per le selve  <rhyme label="a">ombrose</rhyme></l>
                 <l n="473" enjamb="no">De la triforme Dea seguir la <rhyme label="b">traccia</rhyme>;</l>
                 <l n="474" enjamb="no">E non vi paia tal richiesta <rhyme label="c">strana</rhyme>,</l>
-                <l n="475" enjamb="yes">Che già il concesse il suo padre à <rhyme label="c">Diana</rhyme>.</l>
+                <l n="475" enjamb="yes">Che già il concesse il suo padre à <rhyme label="c"><name type="person">Diana</name></rhyme>.</l>
             </lg>
             <lg type="ottava" rhyme="abababcc" n="131">
                 <l n="476" enjamb="no">Vivi pur figlia mia vergine, e  <rhyme label="a">casta</rhyme>,</l>
                 <l n="477" enjamb="no">Le disse il padre; ma veggio in <rhyme label="b">effetto</rhyme>,</l>
                 <l n="478" enjamb="yes">Che al desiderio, c'hai troppo  <rhyme label="a">contrasta</rhyme></l>
                 <l n="479" enjamb="no">Cotesto vago tuo leggiadro <rhyme label="b">aspetto</rhyme>.</l>
-                <l n="480" enjamb="no"><name>Febo</name> l'ama, e la mira, e non gli  <rhyme label="a">basta</rhyme>,</l>
+                <l n="480" enjamb="no"><name type="person">Febo</name> l'ama, e la mira, e non gli  <rhyme label="a">basta</rhyme>,</l>
                 <l n="481" enjamb="no">Vorria sposarla, e far comune il <rhyme label="b">letto</rhyme>,</l>
                 <l n="482" enjamb="no">La spera, e ne compiace à i desir <rhyme label="c">sui</rhyme>,</l>
                 <l n="483" enjamb="no">Ma gli oracoli suoi mentono à <rhyme label="c">lui</rhyme>.</l>
@@ -202,7 +202,7 @@
                 <l n="487" enjamb="no">Rinforza intorno, e rende maggior <rhyme label="b">lampo</rhyme>;</l>
                 <l n="488" enjamb="no">Si sparge al fin l'incendio in ogni  <rhyme label="a">loco</rhyme>,</l>
                 <l n="489" enjamb="no">E tien tutta la siepe, e tutto 'l <rhyme label="b">campo</rhyme>:</l>
-                <l n="490" enjamb="no">Così il foco di <name>Apollo</name> al cor <rhyme label="c">ridutto</rhyme>,</l>
+                <l n="490" enjamb="no">Così il foco di <name type="person">Apollo</name> al cor <rhyme label="c">ridutto</rhyme>,</l>
                 <l n="491" enjamb="no">Al fin si sparse, e l'infiammò, per <rhyme label="c">tutto</rhyme>.</l>
             </lg>
             <lg type="ottava" rhyme="abababcc" n="133">
@@ -278,15 +278,15 @@
             <lg type="ottava" rhyme="abababcc" n="140">
                 <l n="548" enjamb="no">Huom terrestre io non son, ma dio del  <rhyme label="a">cielo</rhyme>,</l>
                 <l n="549" enjamb="no">Ben che'n terra ho domino illustre, e <rhyme label="b">raro</rhyme>;</l>
-                <l n="550" enjamb="no">Che son signor di <name>Tenedo</name>, e di  <rhyme label="a"><name>Delo</name></rhyme>,</l>
-                <l n="551" enjamb="no">E di <name>Delfo</name>, e di <name>Patara</name>, e di <rhyme label="b"><name>Claro</name></rhyme>:</l>
+                <l n="550" enjamb="no">Che son signor di <name type="place">Tenedo</name>, e di  <rhyme label="a"><name type="place">Delo</name></rhyme>,</l>
+                <l n="551" enjamb="no">E di <name type="place">Delfo</name>, e di <name type="place">Patara</name>, e di <rhyme label="b"><name type="place">Claro</name></rhyme>:</l>
                 <l n="552" enjamb="no">Toglio à la notte il tenebroso  <rhyme label="a">velo</rhyme>,</l>
                 <l n="553" enjamb="no">E rendo al mondo il dì splendido, e <rhyme label="b">chiaro</rhyme>.</l>
                 <l n="554" enjamb="no">Quel ch'è, ciò che già fu, quanto poi <rhyme label="c">fia</rhyme>,</l>
                 <l n="555" enjamb="no">Si può saper per la scientia <rhyme label="c">mia</rhyme>.</l>
             </lg>
             <lg type="ottava" rhyme="abababcc" n="141">
-                <l n="556" enjamb="yes">Io son figliuol del sommo <name>Giove</name>, e  <rhyme label="a">sono</rhyme></l>
+                <l n="556" enjamb="yes">Io son figliuol del sommo <name type="person">Giove</name>, e  <rhyme label="a">sono</rhyme></l>
                 <l n="557" enjamb="no">Quel, che incordando i nervi al cavo <rhyme label="b">legno</rhyme>,</l>
                 <l n="558" enjamb="no">Rendo col canto mio sì dolce  <rhyme label="a">tuono</rhyme>,</l>
                 <l n="559" enjamb="no">Che rompo, e placo ogni rancore, e <rhyme label="b">sdegno</rhyme>.</l>
@@ -309,11 +309,11 @@
 
     <div3 type="appendix">
         <head>Annotationi del Primo Libro</head>
-        <p>Seguendo <author xml:id="PON">Ovidio</author> l'opinione di <name type="person">Hesiodo</name>, e di <name type="person">Euripide</name> descrive nel principio di questo primo libro delle <title>Metamorfosi</title>, il <name>Chaos</name> che è quella prima materia; e quella prima confusione d' Elementi amassati insieme, dalla quale si spicca per opra del grand' Iddio questa bella distinta, e vaghissima faccia di mondo; legiadramente espressa da l'<name type="person">Anguillara</name>, nella stanza, Pria che 'l Ciel fosse il mar, la terra e 'l foco; e nelle due seguente, come si vede anchora felicissimamente spiegata la divisione de gli elementi, insieme con la discordia, e dapoi l'amicitia loro, le cinque Zone della Sfera, le due estreme, vicine a i poli aggiacciate, quella di mezzo arrida e arsa, come quella che sente il maggiore vigore de'l Sole; e le due temperate poste fra questa, e quelle.</p>
+        <p>Seguendo <author xml:id="PON">Ovidio</author> l'opinione di <name type="person">Hesiodo</name>, e di <name type="person">Euripide</name> descrive nel principio di questo primo libro delle <title>Metamorfosi</title>, il Chaos che è quella prima materia; e quella prima confusione d' Elementi amassati insieme, dalla quale si spicca per opra del grand' Iddio questa bella distinta, e vaghissima faccia di mondo; legiadramente espressa da l'<name type="person">Anguillara</name>, nella stanza, Pria che 'l Ciel fosse il mar, la terra e 'l foco; e nelle due seguente, come si vede anchora felicissimamente spiegata la divisione de gli elementi, insieme con la discordia, e dapoi l'amicitia loro, le cinque Zone della Sfera, le due estreme, vicine a i poli aggiacciate, quella di mezzo arrida e arsa, come quella che sente il maggiore vigore de'l Sole; e le due temperate poste fra questa, e quelle.</p>
         [...]
         <p>Aquistossi <name type="person">Apollo</name> dopò haver ispento il nocevole <name type="person">Pithone</name>, il nome di <name type="person">Pithio</name>, e diedelo anchora ad alcuni giochi, che si facevano a gara nel correre, saltare e far alla lota; e i vincitori ne riportavano in segno della vittoria corone di frondi de Quercia arbore all'hora grato a <name type="person">Febo</name>, come quello che non era anchora acceso dell'amore di <name type="person">Daphne</name>, ne preso per suo il lauro tanto bramato e da gli Imperatori, e da i Poeti come insegna de i loro perpetui honori.</p>
         <p>La contentione del tirare dell'archo tra <name type="person">Febo</name>, e <name type="person">Cupido</name>, non è altro che quella che è fra utile e il dilettevole nel mondo le saette di <name type="person">Febo</name> che sono i suoi raggi, sono utilissime perche giovano a gli animali, al produrre della terra, e a' frutti e quelle di <name type="person">Cupido</name>, sono soavissime e tanto che offuscano con grandissima forza l'intelletto, e la ragione all'huomo; onde per far conoscere meglio <name type="person">Cupido</name> quanto le ferite de' suoi strali fussero maggiori e più profonde; impiegò il core dell'istesso <name type="person">Apollo</name> con una saetta d'oro, la virtù della quale fu di spingerlo ad amare ardentemente come anchora ferì il core di <name type="person">Daphne</name> d'una di piombo che per la sua frigidità fa contrario effetto rendendoci il piombo tardi, e pigri ne i piaceri amorosi.</p>
-        <p><name type="person">Daphne</name> cangiata in Lauro alle sponde del fiume Peneo, il quale scorre per la valle Tempe amenissima selva nella Emonia è detta vagamente questa trasformatione per seere quella valle piena de Lauri; che la fusse poi cangiata in quest'arbore fuggendo i piaceri amorosi di <name type="person">Apollo</name> si può vedere la sua vaghezza per la simiglianza che hà quest'arbore con la castità, la quale vuole esser perpetua come è perpetuo il verde del Lauro; e stridere e far resistenza alle fiamme d'amore come stridono, e resisteno le sue foglie e i suoi rami gettati sopra 'l fuoco; alcuni hanno voluto poi dire che <name type="person">Ovidio</name> finse questa favola in piacere di <name type="person">Augusto</name> figurandolo cosi per <author xml:id="PON">Apollo</author>, come <name type="person">Livia</name> per <name type="person">Daphne</name>. Chiamasi il Lauro poi arbore di <name type="person">Apollo</name> che è Dio degli Oracoli, e dell'indovinare per essere le sue frondi atte a far indovinare in sogno, poste sotto il capo de chi vuole quando va a dormire.</p>
+        <p><name type="person">Daphne</name> cangiata in Lauro alle sponde del <name type="place">fiume Peneo</name>, il quale scorre per la <name type="place">valle Tempe</name> amenissima selva nella <name type="place">Emonia</name> è detta vagamente questa trasformatione per seere quella valle piena de Lauri; che la fusse poi cangiata in quest'arbore fuggendo i piaceri amorosi di <name type="person">Apollo</name> si può vedere la sua vaghezza per la simiglianza che hà quest'arbore con la castità, la quale vuole esser perpetua come è perpetuo il verde del Lauro; e stridere e far resistenza alle fiamme d'amore come stridono, e resisteno le sue foglie e i suoi rami gettati sopra 'l fuoco; alcuni hanno voluto poi dire che <name type="person">Ovidio</name> finse questa favola in piacere di <name type="person">Augusto</name> figurandolo cosi per <author xml:id="PON">Apollo</author>, come <name type="person">Livia</name> per <name type="person">Daphne</name>. Chiamasi il Lauro poi arbore di <name type="person">Apollo</name> che è Dio degli Oracoli, e dell'indovinare per essere le sue frondi atte a far indovinare in sogno, poste sotto il capo de chi vuole quando va a dormire.</p>
     </div3>
     </body>
     </text>
