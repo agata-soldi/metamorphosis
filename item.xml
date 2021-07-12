@@ -27,7 +27,7 @@
     <dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
     <dc:format>96×79 cm</dc:format>
     <dc:extent>179.525 bytes</dc:extent>
-    <dc:identifier xsi:type="dcterms:URI">file:///Users/agatasoldi/Desktop/metamorphosis/item.htm</dc:identifier>
+    <dc:identifier xsi:type="dcterms:URI">https://github.com/agata-soldi/metamorphosis.git</dc:identifier>
     <dc:source>https://collections.louvre.fr/ark:/53355/cl010059432</dc:source>
     <dc:coverage xsi:type="TGN" mp:ref=" http://vocab.getty.edu/page/tgn/7625108">Museo del Louvre, Parigi</dc:coverage>
 </mp:metadata>
