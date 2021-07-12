@@ -15,7 +15,7 @@
                     <resp>annotazione</resp>
                 </respStmt>
                 <respStmt>
-                    <name>Agata Soldi</name>
+                    <name xml:id="AS">Agata Soldi</name>
                     <resp>Codifica TEI</resp>
                 </respStmt>
             </titleStmt>
