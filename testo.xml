@@ -119,13 +119,13 @@
     </teiHeader>
     <text>
         <front>
-            <div1 type="dedication">
+            <div1 type="dedication" resp="#GD">
                 <opener>
                     <head>Dedica</head>
                     <salute>Alla Serenissima Madama,Madama Margherita di Valoes Duchessa di Savoia e di Berrhì</salute>
                     <byline>Gioseppe Horologgi.</byline>
                 </opener>
-                <p>Non doverà alcuno maravigliarsi che io habbi voluto indirizzare all'Altezza Vostra le annotationi da me fatte sopra le Metamorfosi di Ovidio trasportate felicemente in ottava rima in questa nostra lingua Italiana da M. Gio. Andrea dall'Anguillara, se considerarà che si come egli fece elettione de i maggior Re non pure della Christianità ma di tutto il mondo; per dedicargli le fatiche sue havendole dedicate ad Arrigo Secondo Re di Francia di felicissima memoria, e dipoi al Re CARLO IX, suo meritissimo figliuolo, cosi io habbi eletta l'Altezza Vostra, come quella che è la maggior Donna della nostra età essendo stata figliuola di cosi gran Re come fu Francesco Primo, sorella del grandissimo successore suo, e Zia del già Re Francesco II, e del presente Re, e moglie poi del Serenissimo Emanuelo Filiberto Duca di Savoia per sacrarle le mie, quali esse si diano; perche ne egli ne io potevamo piu altamente collocarle.</p>
+                <p>Non doverà alcuno maravigliarsi che io habbi voluto indirizzare all'Altezza Vostra le annotationi da me fatte sopra le <title lang="it">Metamorfosi</title> di Ovidio trasportate felicemente in ottava rima in questa nostra lingua Italiana da M. Gio. Andrea dall'Anguillara, se considerarà che si come egli fece elettione de i maggior Re non pure della Christianità ma di tutto il mondo; per dedicargli le fatiche sue havendole dedicate ad Arrigo Secondo Re di Francia di felicissima memoria, e dipoi al Re CARLO IX, suo meritissimo figliuolo, cosi io habbi eletta l'Altezza Vostra, come quella che è la maggior Donna della nostra età essendo stata figliuola di cosi gran Re come fu Francesco Primo, sorella del grandissimo successore suo, e Zia del già Re Francesco II, e del presente Re, e moglie poi del Serenissimo Emanuelo Filiberto Duca di Savoia per sacrarle le mie, quali esse si diano; perche ne egli ne io potevamo piu altamente collocarle.</p>
                 <closer>
                     <dateline>Da Venetia alli X d'Agosto del MDLXIII.</dateline>
                 </closer>
