@@ -17,12 +17,11 @@
     <dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/NX652.D25</dc:subject>
     <!--soggetto apollo-->
     <dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/N7763.A66</dc:subject>
-
     <dc:description>"Apollo e Dafne" è un olio su tela realizzato dal pittore Giambattista Tiepolo realizzato tra il 1743 e il 1744. Raffigura il momento della metamorfosi di Dafne che, per fuggire da Apollo, viene trasformata in una pianta di alloro. L'episodio è raccontato da Ovidio nel Libro I delle "Metamorfosi".</dc:description>
     <dc:publisher>Metamorphosis, progetto di Digital Humanities</dc:publisher>
     <dc:contributor>Agata Soldi</dc:contributor>
     <dc.date type="creation">1743-1744</dc.date>
-    <dc:date type="subject">8 d.C.</dc:date>
+    <dc:date type="subject">1696-1770</dc:date>
     <dc:type>Dipinto</dc:type>
     <dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
     <dc:format>96×79 cm</dc:format>
